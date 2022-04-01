@@ -1,0 +1,8 @@
+body{
+  /* margin: 0; */
+}
+.nav-brand{
+  font-family: 'Monoton', cursive;
+  font-size: 70px;
+  background-color: #FEF5ED;
+}
