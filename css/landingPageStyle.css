@@ -1,8 +1,42 @@
-body{
-  /* margin: 0; */
+/* body {
+  margin: 0;
+} */
+
+.container-fluid {
+  padding: 0;
 }
-.nav-brand{
-  font-family: 'Monoton', cursive;
-  font-size: 70px;
+
+.logo {
+  background-color: #edf1f4;
+  color: #3d2c07;
+}
+
+.navbar-brand {
+  font-family: "Monoton", cursive;
+  font-size: 3.5rem;
+}
+
+.user {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+#title {
   background-color: #FEF5ED;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.naavbar-collapse {}
+
+.collapse .navbar-nav {
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
+.story {
+
 }
