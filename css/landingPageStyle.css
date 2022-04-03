@@ -1,24 +1,33 @@
-/* body {
+body {
+  background-color: #FEF5ED;
   margin: 0;
-} */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sansita', sans-serif;
+}
 
 .container-fluid {
   padding: 0;
 }
 
 .logo {
-  background-color: #edf1f4;
-  color: #3d2c07;
+  background-color: #464E2E;
+  /* color: #FEF5ED; */
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .navbar-brand {
   font-family: "Monoton", cursive;
   font-size: 3.5rem;
+  color: #FEF5ED;
 }
 
 .user {
   padding-top: 20px;
   padding-bottom: 0;
+  color: #FEF5ED;
 }
 
 #title {
@@ -28,15 +37,76 @@
 .navbar {
   padding-left: 0;
   padding-right: 0;
+  color: #362706;
 }
 
-.naavbar-collapse {}
-
+/* .navbar-collapse {} */
 .collapse .navbar-nav {
   font-size: 1.5em;
   margin: 0 auto;
+  letter-spacing: 0.1em;
+}
+
+.title {
+  padding: 7% 4%;
+  color: #FEF5ED;
+}
+
+.title-text h1 {
+  margin-bottom: 0;
+  padding-bottom: 2%;
+}
+
+.title-text h4 {
+  padding-bottom: 4%;
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  background-color: #FEF5ED !important;
+  border-radius: 25px !important;
+  color: #362706;
+}
+
+.story.container-fluid {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 5% 7%;
 }
 
 .story {
+  padding: 0;
+}
 
+.story-title {
+  padding-bottom: 3%;
+}
+
+.story-subtitle{
+  padding-bottom: 3%;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.story-content {
+  font-size: 1.2em;
+  font-family: 'Sansita', sans-serif;
+  line-height: 1.5em;
+}
+
+.story-img-container{
+  display: flex;
+  justify-content: center;
+}
+
+.story-img {
+  background-size: cover;
+  width: 80%;
+}
+
+.best-seller-container{
+  padding: 5% 7%;
+}
+
+.best-seller{
+  background-color: #C7D3B6;
 }
