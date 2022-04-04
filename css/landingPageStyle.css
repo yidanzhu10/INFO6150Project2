@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #FEF5ED;
 }
 
-.user {
+.navbar-light .nav-link.user {
   padding-top: 20px;
   padding-bottom: 0;
   color: #FEF5ED;
@@ -54,11 +54,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #362706;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-light .navbar-collapse .nav-link{
   font-family: 'Sansita', sans-serif;
+  color: #362706;
 }
 
-/* .navbar-collapse {} */
 .collapse .navbar-nav {
   font-size: 1.5em;
   margin: 0 auto;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #FEF5ED;
 }
 
-.welcome-title, .welcome-text, .shop-button{
+.container-fluid.title{
   padding-left: 7%;
 }
 
