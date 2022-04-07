@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 2%;
 }
 
-.care-button, .cta-button, .signup-button{
+.care-button, .cta-button, .signup-button, .log-in-button{
   background-color: #464E2E !important;
   color: #FEF5ED;
 }
@@ -266,4 +266,20 @@ h1, h2, h3, h4, h5, h6 {
 .copyright{
   padding-bottom: 3%;
   margin-bottom: 0;
+}
+
+.sign-up-title{
+  padding: 0;
+}
+
+.form-row{
+  padding: 7%;
+}
+
+form{
+  padding: 0 15%;
+}
+
+.log-in,.sign-up{
+  font-family: 'Sansita', sans-serif;
 }
