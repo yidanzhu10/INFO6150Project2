@@ -3,8 +3,13 @@
   margin: 0
 }
 
+/* .nav.navbar-expand-lg{
+  padding-top: 4%;
+  padding-bottom: 2%;
+} */
+
 .brand-row{
-  padding: 0 7%;;
+  padding: 3% 7% 2%;
 }
 
 .navbar{
@@ -14,7 +19,7 @@
 
 .navbar-light .navbar-brand{
   font-family: 'Monoton', cursive;
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: #FEF5ED;
 }
 
@@ -92,6 +97,14 @@
 
 .plant-name, .plant-price, .review{
   font-family: 'Sansita', sans-serif;
+  color: #3d2c07;
+}
+
+.plant-name{
+  font-size: 1.3em;
+}
+
+.plant-name:hover{
   color: #3d2c07;
 }
 
