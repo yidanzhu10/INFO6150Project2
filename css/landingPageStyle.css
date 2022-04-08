@@ -161,12 +161,6 @@ div.col-sm-6.title-text{
     object-position: center;
 }
 
-/* .card-img-top {
-    max-height: 200px;
-    min-height: 150px;
-    object-fit: cover;
-} */
-
 .plant-care{
   padding: 0 7% 5%;
 }
@@ -324,6 +318,10 @@ div.col-sm-6.title-text{
   .footer-row .nav-col{
     padding-top: 5%;
   }
+
+  .form-container, .first-name-container{
+    padding-bottom: 5%;
+  }
 }
 
 .sign-up-title{
@@ -340,4 +338,17 @@ form{
 
 .log-in,.sign-up{
   font-family: 'Sansita', sans-serif;
+}
+
+.sign-up{
+  margin-bottom: 5%;
+}
+
+.name-row{
+  margin-left: 0;
+  margin-right: 0；
+}
+
+.first-name-container, .last-name-container{
+  padding-left: 0;
 }
