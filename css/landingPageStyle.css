@@ -62,12 +62,18 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-light .navbar-collapse .nav-link{
   font-family: 'Sansita', sans-serif;
   color: #362706;
+  white-space: nowrap;
 }
 
 .collapse .navbar-nav {
   font-size: 1.5em;
   margin: 0 auto;
   letter-spacing: 0.1em;
+}
+
+.navbar-expand-sm .navbar-nav .nav-item{
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 /* .collapse .nav-item{
