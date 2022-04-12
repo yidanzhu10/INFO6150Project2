@@ -248,9 +248,9 @@ div.col-sm-6.title-text{
 .cta-container{
   margin: 0;
 }
-/* .cta-button-container{
-  margin: 0 auto;
-} */
+.cta-button-container{
+  padding: 0 auto;
+}
 
 .cta-button{
   margin: 5% 3% 5% 0;
@@ -284,24 +284,47 @@ div.col-sm-6.title-text{
   margin-bottom: 0;
 }
 
-@media (max-width: 576px){
-  .hamburger-menu{
-    padding-left: 1% 7%;
+@media (max-width: 960px){
+  .collapse .navbar-nav{
+    margin: 0;
+  }
+  /* .plant-care-row .col-lg-6{
+    padding-bottom: 4%;
+  } */
+
+  .plant-care-img{
+    padding-top: 2%;
   }
 
   .story-img-container{
-    padding-left: 0;
+    justify-content: center !important;
+  }
+
+  .story-img{
+    margin: 0 auto;
+    /* width: 100%; */
+  }
+
+  .pricing-cards .col-md-6{
+    padding-top: 2%;
+  }
+}
+
+@media (max-width: 576px){
+  .hamburger-menu{
+    padding-left: 1% 7%;
   }
 
   .story-img{
     margin: 0 auto;
   }
 
+
   .category-card-row{
     margin: 0;
   }
 
-  .plant-care-row .col-sm-6{
+  .plant-care-row .col-lg-6{
     padding-bottom: 4%;
   }
 
@@ -317,7 +340,7 @@ div.col-sm-6.title-text{
     width: 60%;
   }
 
-  .pricing-cards .col-sm-4{
+  .pricing-cards .col-md-6{
     padding-bottom: 4%;
   }
 
